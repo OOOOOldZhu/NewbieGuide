@@ -48,6 +48,10 @@ public class GuidePage {
         return addHighLight(view, shape, 0, 0, null);
     }
 
+    public GuidePage addHighLight(View view, HighLight.Shape shape,int round,boolean isView) {
+        return addHighLight(view, shape, round, 0, null);
+    }
+
     public GuidePage addHighLight(View view, HighLight.Shape shape, RelativeGuide relativeGuide) {
         return addHighLight(view, shape, 0, 0, relativeGuide);
     }
